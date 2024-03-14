@@ -1,0 +1,29 @@
+/* footer list Wrap*/
+
+.footer-wrap{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  padding: 65px 55px;
+  margin: auto;
+  background-color: var(--clr-base);
+}
+
+.footer-wrap p{
+  font-weight: var(--fw-semibold);
+  font-size:var(--fs-xs) ;
+  padding:0px 60px;
+}
+.footer-wrap ul{
+  font-weight: var(--fw-light);
+  list-style: none;
+  margin: 0;
+  padding: 10px 60px 0 60px;
+}
+.footer-wrap li{
+  text-align: left;
+  font-size: var(--fs-2xs);
+}
+.footer-wrap li a{
+  font-size: var(--fs-2xs);
+}

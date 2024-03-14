@@ -1,0 +1,78 @@
+/* Scroller */
+
+.scroll{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-products {
+  display: flex;
+  overflow-x: auto;
+  gap:10px;
+
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height:200px;
+  background: var(--clr--slate);
+}
+
+.scroll-products::-webkit-scrollbar{
+  display: none;
+}
+
+.scroll-products img{
+ padding: 10px 20px;
+ /* background:#ccc; */
+}
+
+
+/* Sell */
+
+.sell{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.sell-products {
+  display: flex;
+  overflow-x: auto;
+  gap:10px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height:320px;
+  padding:20px 0px;
+}
+
+.sell-products > div{
+  display: flex;
+  justify-content: center;
+  gap:20px;
+  padding: 20px 0px;
+  align-items:start;
+  flex-direction: column;
+  background: var(--clr-white);
+  z-index: 9;
+}
+
+.sell-products button img{
+  width: 250px;
+  height:180px;
+  padding: 20px;
+  object-fit: contain;
+  background: var(--clr-light);
+}
+
+.sell-products::-webkit-scrollbar{
+  display: none;
+}

@@ -1,0 +1,252 @@
+/*----------------------------------------------------------------------*/
+/* Top - Navigation */
+/*----------------------------------------------------------------------*/
+/* Left section */
+/*----------------------------------------------------------------------*/
+
+/* Logo */
+#top-nav .logo-btn {
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6px;
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--clr-light);
+  background: transparent;
+}
+
+.logo {
+  width: 100px;
+  margin-top: 5px;
+}
+
+.mobile-logo {
+  display: none;
+}
+
+.left-section button {
+  font-weight: var(--fw-base);
+  font-size: var(--fs-3xs);
+}
+
+/*----------------------------------------------------------------------*/
+/* Middle section */
+/*----------------------------------------------------------------------*/
+
+/* Location */
+.middle-section .location button {
+  flex: 1;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 40px;
+}
+
+.location button span {
+  display:none;
+}
+
+.location button .location-icon{
+  position:absolute;
+  left:-23px;
+  top: 10px;
+}
+
+/* search bar */
+
+.search-bar{
+  flex: 1;
+  width: 0;
+  height:40px;
+  color: var(--clr-base);
+  padding:10px 15px 10px 5px;
+  font-size: var(--fs-2xs);
+}
+
+.middle-section .all button{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--clr-slate);
+  color: var(--clr-baseR);
+  font-size: var(--fs-2xs);
+  font-weight: var(--fw-base);
+  padding:10px 15px 10px 15px;
+  width:55px;
+  flex: 1;
+  height:40px;
+  border-right: 0.1px solid #ccc;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.middle-section .search-btn {
+  background-color: var(--clr-accent1);
+  color: var(--clr-base2);
+  font-size: var(--fs-sm);
+  border-radius: 0px 5px 5px 0px;
+  padding: 5px 5px 5px 5px;
+  width: 45px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.search-icon {
+  height: 22px;
+  margin-left: 2px;
+  margin-top: 3px;
+}
+
+/*----------------------------------------------------------------------*/
+/* right section */
+/*----------------------------------------------------------------------*/
+
+/* languages */
+.right-section .languages button{
+  font-size: var(--fs-2xs);
+  font-weight: var(--fw-semibold);
+  background: transparent;
+  padding:10px 15px 10px 5px;
+  height: 60px;
+}
+
+.languages button i {
+  opacity:0.5;
+  font-size: var(--fs-4xs);
+}
+
+/* sign In nav */
+.right-section .signin button{
+  font-size: var(--fs-2xs);
+  font-weight: var(--fw-semibold);
+  background: transparent;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 60px;
+}
+
+.signin button i {
+  opacity:0.5;
+  font-size: var(--fs-4xs);
+}
+
+.signin button span{
+  display:none;
+}
+
+/* Returns Btn */
+
+.right-section .returns button{
+  font-size: var(--fs-2xs);
+  font-weight: var(--fw-semibold);
+  padding:5px 10px 5px 5px;
+  margin:0px 5px 0px 10px;
+}
+
+.returns button span{
+  display:none;
+}
+
+/* cart */
+
+.right-section .cart{
+  background: var(--clr-dark);
+  color: var(--clr-light);  
+  padding-left: 15px;
+  padding-left: 15px;
+}
+
+.cart img {
+  margin-top: 8px;
+  margin-right: 50px;
+  width: 40px;
+  height: 28px;
+ }
+
+ .cart strong{
+  position: absolute;
+  font-size: var(--fs-2xs);
+  font-weight: var(--fw-semibold);
+  right:25px;
+  top:20px;
+ }
+
+ .cart p{
+  position: absolute;
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-semibold);
+  color:var(--clr-accent2);
+  right: 54px;
+  top:2px;
+  width: 26px;
+  text-align: center;
+ }
+
+/*----------------------------------------------------------------------*/
+/* Home-Bar */
+/*----------------------------------------------------------------------*/
+
+/* Nav-left */
+
+/* toggle */
+#Home-bar .nav-left .toggle button {
+  padding-left: 30px;
+  padding-right: 10px;
+  height: 40px;
+}
+
+/* ham burger Menu*/
+
+#Home-bar .nav-left .ham-burger {
+  display: block;
+  position: relative; 
+  right: 25px;
+  top: 9.5px;
+}
+
+.ham-burger,
+.ham-burger::before,
+.ham-burger::after {
+  background: var(--clr-light);
+  width: 15px;
+  height: 2.2px;
+  border-radius: 10px;
+  transition: transform 250ms ease-in-out;
+}
+
+.ham-burger::before,
+.ham-burger::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.ham-burger::before { top: 4px; }
+.ham-burger::after { bottom: 4px; }
+
+/* Fresh */
+
+#Home-bar .nav-left .fresh button{
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 40px;
+}
+
+/* Nav-mid */
+
+/* Button Column */
+
+#Home-bar .nav-mid .btn-col{
+  flex: 1;
+  width: 0;
+  height:40px;
+}
+
+/* Nav-right */
+
+#Home-bar .nav-right button span{
+  display: none;
+}
+

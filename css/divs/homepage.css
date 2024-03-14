@@ -1,0 +1,134 @@
+/*----------------------------------------------------------------------*/
+/* Image-Slider */
+/*----------------------------------------------------------------------*/
+
+#img-slider-container{
+  position: relative;
+  padding:0;
+  margin:0 auto -300px auto;
+}
+
+#img-slider-container .slider-wrap{
+  display: flex;
+  overflow-y:hidden;
+  margin:auto;
+}
+
+.slider-wrap img{
+  max-width: 100%;
+  min-height: 550px;
+  margin: auto;
+  object-fit: cover;
+  mask-image: linear-gradient(to bottom, #f2f2f2 40%, transparent 100%);
+}
+
+#img-slider-container button{
+  position: absolute;
+  padding:20px;
+  font-weight: var(--fw-extralight);
+  background: transparent;
+  top: 100px;
+}
+
+#img-slider-container button{
+  border:none;
+}
+
+#img-slider-container a{
+  font-size: var(--fs-4xl);
+  font-weight: var(--fw-thin);
+  background: transparent;
+}
+
+#img-slider-container a:hover{
+  color:var(--clr-base2)
+}
+
+#img-slider-container .slider-left-btn{
+  left:50px ;
+  z-index: 99;
+  text-shadow: 3px 0px 2px var(--clr-white);
+ }
+
+#img-slider-container .slider-right-btn{
+ right:50px ;
+ z-index: 99;
+ text-shadow: -3px 0px 2px var(--clr-white);
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 0.1s;
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
+
+/*----------------------------------------------------------------------*/
+/* Image-grid */
+/*----------------------------------------------------------------------*/
+
+#grid-home-container{
+  min-width:850;
+  margin: 0vh 25px 0vh 25px;
+}
+
+#grid-container{
+  min-width:850;
+  margin: 0vh 25px 0vh 25px;
+}
+
+.grid-row button, .grid-row button:visited { 
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--clr-light);
+  background: transparent;
+  transition: none;
+}
+
+.grid-row button:hover,.grid-row button:focus,.grid-row button:active {
+  border: none;
+}
+
+.grid-row button img{
+  max-width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.grid-row .grid-col h2{
+  font-weight: var(--fw-semibold);
+  font-size:var(--fs-xs) ;
+  color: var(--clr-base);
+  text-align: left;
+}
+
+.grid-row .grid-col a{
+  font-weight: var(--fw-semibold);
+  font-size:var(--fs-4xs) ;
+  color: var(--clr-base);
+}
+
+.grid-col a:hover{
+  color:var(--clr-accent2);
+  text-decoration: underline;
+}
+  
+.grid-box .box p{
+  font-size:8px;
+  font-weight: var(--fw-base);
+}
+
+.grid-box button{
+  max-width: 100%;
+}
+
+.grid-box button img{
+  max-width:100%;
+  height:100%;
+  /* flex: 1 1 calc(100% - 50px); */
+  object-fit: cover;
+}
+

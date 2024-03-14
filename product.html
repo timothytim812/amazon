@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Shopping at it's best | Amazon Clone</title>
+
+  <!-- font awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Styles-sheets  -->
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- icon -->
+
+  <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+  <!-- header -->
+  <header id="header">
+
+    <!-- Top Navbar-->
+    <div id="top-nav">
+
+      <div class="left-section">
+
+        <!-- Logo -->
+        <button onclick="location.href='index.html'" class="logo-btn">
+          <img class="logo"
+            src="assets/logos/amazon_logo.png">
+            <span>.com</span>
+          <img class="mobile-logo"
+            src="assets/logos/mobile/amazon-mobile-logo-white.png">
+        </button>
+      </div>
+
+      <div class="middle-section">
+
+        <!-- Location -->
+      <div class="location">
+        <button>
+          <img class="location-icon" src="assets/icons/locationDot.png" width="30px" height="30px" alt="">
+          <p> Delivering to your address</p>
+          <p>
+            <strong >Update location</strong>
+          </p>
+          <span>location</span>
+        </button>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="search"></div>
+        
+            <div class="dropdown all">
+              <button type="menu" class="dropdown-btn">
+                All
+                <i class="fa fa-caret-down drop-icon"></i>
+              </button>
+              <div class="dropdown-content allDrop-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                <a href="#">Link 4</a>
+                <a href="#">Link 5</a>
+                <a href="#">Link 6</a>
+                <a href="#">Link 7</a>
+              </div>
+            </div>
+          <input type="text" class="search-bar" placeholder="Search Amazon.com">
+          <button class="search-btn"><i class="fa fa-search search-icon"></i>
+          </button>
+      </div>
+
+      <!-- right-section -->
+      <div class="right-section">
+
+        <!-- Language -->
+        <div class="dropdown languages">
+          <button class="dropdown-btn">
+            <img src="assets/icons/uk-flag.png" width="20px" alt="">
+            <span>EN</span>
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content langDrop-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+            <a href="#">Link 6</a>
+            <a href="#">Link 7</a>
+          </div>
+        </div>
+
+        <!-- Sign in dropdown -->
+        <div class="dropdown signin">
+
+          <button type="button" aria-label="">
+
+            <p> Hello, sign in</p>
+            <span>login</span>
+            <p>
+              <strong > Accounts & Lists </strong>
+              <i class="fa fa-caret-down"></i>
+            </p>
+            
+          </button>
+
+          <div class="dropdown-content signDrop-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+            <a href="#">Link 6</a>
+            <a href="#">Link 7</a>
+          </div>
+
+        </div>
+
+        <!-- Return & Orders -->
+        <div class="returns">
+
+          <button>
+            <p> Returns</p>
+            <span>Orders</span>
+            <p>
+              <strong > & Orders</strong>
+            </p>
+          </button>
+
+        </div>
+
+        <!-- Cart -->
+        <div class="cart">
+
+          <button class="cart-btn" onclick="location.href='checkout.html'">
+            <img src="assets/icons/cart-icon.png" alt="">
+            <strong>Cart</strong>
+            <p id="cart-value"></p>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>  <!-- Top-Nav -->
+    
+    <div id="Home-bar"> <!-- Home-Bar -->
+
+      <!-- Nav left -->
+      <div class="nav-left">
+
+        <div class="toggle">
+          <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="ham-burger"></span>
+            <span class="toggle-p">All</span>
+          </button>
+        </div>
+
+        <div class="dropdown fresh">
+          <button>Fresh <i class=" fa fa-caret-down drop-icon"></i></button>
+        </div>
+
+      </div>
+
+      <!-- Nav mid -->
+      <div class="nav-mid">
+    
+        <div class="btn-col">
+          <button class="btn0">Amazon miniTv</button>
+          <button class="btn1">Sell</button>
+          <button class="btn1">Best Sellers</button>
+          <button class="btn3">Mobiles</button>
+          <button class="btn1">Today's Deals</button>
+          <button class="btn3">Electronics</button>
+          <button class="btn1">Customer Service</button>
+          <button class="dropdown prime btn4">Prime <i class="fa fa-caret-down drop-icon"></i>
+          </button>
+        </div>
+      </div>
+       
+      <!-- nav-right -->
+      <div class="nav-right" >
+        <button class="new"> 
+          <p>
+           New Launches from Mobiles, Electronics & more | Shop now
+          </p>
+          <span>
+            New
+          </span>
+        </button>
+      </div>
+    </div>
+
+  </header> <!-- Header -->
+
+  <section id="products">
+    
+  </section>
+ 
+  <script type="module" src="js/view/products.js" ></script>
+</body>
+</html>
