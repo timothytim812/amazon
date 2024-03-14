@@ -2,14 +2,7 @@ import {calculateCartQuantity} from '../model/cart.js'
 
 /*Alert*/ 
 
-document.addEventListener('alert', function() {
-  var hasAlertBeenShown = localStorage.getItem('alertShown');
-
-  if (!hasAlertBeenShown) {
-    alert('This website is to showcase my skill \nNote ! clicking any of the product in homepage will take to a general product page'); 
-    localStorage.setItem('alertShown', true);
-  }
-});
+alert('This website is to showcase my skills only \nNote ! \n* clicking any of the product in homepage will take to a general product page \n*the cart button on top right is interactive \n');  
 
 /*  Image Slider  */
 
