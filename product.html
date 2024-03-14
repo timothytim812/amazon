@@ -59,13 +59,10 @@
                 <i class="fa fa-caret-down drop-icon"></i>
               </button>
               <div class="dropdown-content allDrop-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-                <a href="#">Link 4</a>
-                <a href="#">Link 5</a>
-                <a href="#">Link 6</a>
-                <a href="#">Link 7</a>
+                <a href="product.html">products</a>
+                <a href="checkout.html">Checkout</a>
+                <a href="orders.html">Orders</a>
+                <a href="tracking.html">Tracking</a>
               </div>
             </div>
           <input type="text" class="search-bar" placeholder="Search Amazon.com">
@@ -84,13 +81,9 @@
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content langDrop-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            <a href="#">Link 4</a>
-            <a href="#">Link 5</a>
-            <a href="#">Link 6</a>
-            <a href="#">Link 7</a>
+            <a href="#">Spanish</a>
+            <a href="#">French</a>
+            <a href="#">German</a>
           </div>
         </div>
 
@@ -109,13 +102,7 @@
           </button>
 
           <div class="dropdown-content signDrop-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            <a href="#">Link 4</a>
-            <a href="#">Link 5</a>
-            <a href="#">Link 6</a>
-            <a href="#">Link 7</a>
+            
           </div>
 
         </div>
@@ -123,7 +110,7 @@
         <!-- Return & Orders -->
         <div class="returns">
 
-          <button>
+          <button onclick="location.href ='orders.html'">
             <p> Returns</p>
             <span>Orders</span>
             <p>
@@ -136,7 +123,7 @@
         <!-- Cart -->
         <div class="cart">
 
-          <button class="cart-btn" onclick="location.href='checkout.html'">
+          <button class="cart-btn" onclick="location.href='cart.html'">
             <img src="assets/icons/cart-icon.png" alt="">
             <strong>Cart</strong>
             <p id="cart-value"></p>
@@ -154,14 +141,14 @@
       <div class="nav-left">
 
         <div class="toggle">
-          <button class="nav-toggle" aria-label="toggle navigation">
+          <button class="nav-toggle probtn" aria-label="toggle navigation">
             <span class="ham-burger"></span>
             <span class="toggle-p">All</span>
           </button>
         </div>
 
         <div class="dropdown fresh">
-          <button>Fresh <i class=" fa fa-caret-down drop-icon"></i></button>
+          <button class="probtn">Fresh <i class=" fa fa-caret-down drop-icon"></i></button>
         </div>
 
       </div>
@@ -170,13 +157,13 @@
       <div class="nav-mid">
     
         <div class="btn-col">
-          <button class="btn0">Amazon miniTv</button>
-          <button class="btn1">Sell</button>
-          <button class="btn1">Best Sellers</button>
-          <button class="btn3">Mobiles</button>
-          <button class="btn1">Today's Deals</button>
-          <button class="btn3">Electronics</button>
-          <button class="btn1">Customer Service</button>
+          <button class="btn0 probtn">Amazon miniTv</button>
+          <button class="btn1 probtn">Sell</button>
+          <button class="btn1 probtn">Best Sellers</button>
+          <button class="btn3 probtn">Mobiles</button>
+          <button class="btn1 probtn">Today's Deals</button>
+          <button class="btn3 probtn">Electronics</button>
+          <button class="btn1 probtn">Customer Service</button>
           <button class="dropdown prime btn4">Prime <i class="fa fa-caret-down drop-icon"></i>
           </button>
         </div>
@@ -184,7 +171,7 @@
        
       <!-- nav-right -->
       <div class="nav-right" >
-        <button class="new"> 
+        <button class="new probtn"> 
           <p>
            New Launches from Mobiles, Electronics & more | Shop now
           </p>
@@ -195,7 +182,7 @@
       </div>
     </div>
 
-  </header> <!-- Header -->
+  </header>
 
   <section id="products">
     
