@@ -66,6 +66,10 @@ export function reviewPayment() {
       </h3>
     </div>
 
+    <div class="order-popup ">
+      <img src="assets/icons/checkmark.png">
+      Order placed successfully
+    </div>
     <button class="place-order-button button-primary">
       Place your order
     </button>
@@ -75,6 +79,7 @@ export function reviewPayment() {
     .innerHTML = paymentHTML;
   
 };
+
 
 
 // console.log(productPricePence);
